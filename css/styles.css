@@ -1,0 +1,122 @@
+.header-nav img {
+    width: 7vw;
+}
+
+.img1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/hawaii.jpg);
+    background-size: 100dvw 100dvh;
+    background-position: 0;
+    height: 85vh;
+}
+
+.img2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/hawaii2.jpg);
+    background-size: 100dvw 100dvh;
+    background-position: 0;
+    height: 85vh;
+}
+
+.img3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/hawaii3.jpg);
+    background-size: 100dvw 100dvh;
+    background-position: 0;
+    height: 85vh;
+}
+
+.texto-bsas{
+    text-align: right;
+    margin-top: -50vh;
+    margin-right: 8vw;
+    position: absolute;
+    color: white;
+    
+}
+
+.ellugar {
+    display: flex;
+}
+
+.ellugar-img img {
+    width: 50vw;
+}
+
+.ellugar-info {
+    background: black;
+    width: 50vw;
+    color: white;
+    padding: 2vh 2vw;
+}
+
+.formulario {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.footer {
+    background: -webkit-linear-gradient(#323880,#130e30);
+    color: #ffffff;
+    height: 5vh;
+    padding-top: 0.5vh;
+}
+
+@media screen and (max-width:20000px){
+    .navbar-toggler {
+        display: none;
+    }
+}
+
+@media screen and (max-width:956px){
+    .navbar-toggler {
+        display: none;
+    }
+
+    .texto-bsas{
+        font-size: 10px;
+    }
+
+    .ellugar {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ellugar-img img {
+        width: 100vw;
+    }
+    
+    .ellugar-info {
+        background: black;
+        width: 100vw;
+        color: white;
+        padding: 2vh 2vw;
+    }
+}
+
+@media screen and (max-width:768px){
+    .header-nav-links {
+        display: none;
+    }
+
+    .navbar-toggler {
+        display: inline;
+    }
+
+    .texto-bsas{
+        font-size: 10px;
+        padding-left: 20px;
+        margin-top: -60vh;
+    }
+
+    .texto-bsas .btn {
+        display: block;
+        font-size: 10px;
+    }
+
+    .footer {
+        height: auto;
+    }
+
+    .footer ul {
+        display: flex;
+        flex-direction: column;       
+    }
+}
