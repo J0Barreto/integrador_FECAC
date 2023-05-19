@@ -1,0 +1,292 @@
+main {
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.descuentos {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.card {
+    width: 250px !important;
+    height: 200px !important;
+    margin: 0 5px;
+}
+
+.venta { 
+    width: 780px;
+}
+
+.venta-nombre {
+    display: flex;
+    justify-content: space-between;
+}
+
+#nombre, #apellido {
+    width: 49%;
+    height: 40px;
+    margin-top: 10px;
+    padding-left: 15px;
+}
+
+#email {
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 15px;
+}
+
+.venta-elejir-cantidad, .venta-elejir-categoria {
+    width: 48%;
+}
+
+.venta-elejir-cantidad #cantidad, .venta-elejir-categoria #categoria {
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    padding-left: 15px;
+}
+
+.total {
+    height: 55px;
+    width: 100%;
+    background: #9de5f1;
+    border: 2px solid #73c7d6;
+    margin-top: 25px;
+    margin-bottom: 18px;
+}
+
+.total p {
+    padding-top: 10px;
+    padding-left: 25px;
+    font-size: 20px;
+}
+
+.button {
+    width: 780px;
+}
+
+.button button {
+    width: 49%;
+    height: 45px;
+    margin-bottom: 10px;
+    background-color: rgb(31, 156, 31);
+    border: none;
+}
+
+@media screen and (max-width: 426px){
+    main {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .descuentos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .card {
+        width: 250px !important;
+        height: 200px !important;
+        margin-top: 20px;
+    }
+
+    .venta { 
+        width: 100%;
+    }
+
+    .venta-nombre, .venta-mail {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #nombre, #apellido {
+        width: 95%;
+        height: 40px;
+        margin-top: 10px;
+        padding-left: 15px;
+    }
+
+    #email {
+        width: 95%;
+        height: 40px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding-left: 15px;
+    }
+
+    #venta-elejir {
+        display: flex;
+        justify-content: center !important;
+    }
+
+    .venta-elejir-cantidad #cantidad, .venta-elejir-categoria #categoria {
+        width: 98%;
+        height: 40px;
+        margin-top: 10px;
+        padding-left: 15px;
+    }
+
+    .button {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 620px){
+    main {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .descuentos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .card {
+        width: 250px !important;
+        height: 200px !important;
+        margin-top: 20px;
+    }
+
+    .venta { 
+        width: 100%;
+    }
+
+    .venta-nombre, .venta-mail {
+        display: flex;
+        justify-content: center;
+    }
+    
+
+    #nombre, #apellido {
+        width: 49%;
+        height: 40px;
+        margin-top: 10px;
+        padding-left: 15px;
+    }
+
+    #email {
+        width: 98%;
+        height: 40px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding-left: 15px;
+    }
+
+    #venta-elejir {
+        display: flex;
+        justify-content: center !important;
+    }
+
+    .venta-elejir-cantidad #cantidad, .venta-elejir-categoria #categoria {
+        width: 98%;
+        height: 40px;
+        margin-top: 10px;
+        padding-left: 15px;
+    }
+
+    .button {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 685px){
+    .descuentos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 25px;
+    }
+}
+
+@media screen and (max-width: 779px){
+    .card {
+        width: 220px !important;
+        height: 170px !important;
+        margin: 0 5px;
+    }
+    
+    .venta { 
+        width: 80vw;
+    }
+    
+    .venta-nombre {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    #nombre, #apellido {
+        width: 49%;
+        height: 40px;
+        margin-top: 10px;
+        padding-left: 15px;
+    }
+    
+    #email {
+        width: 100%;
+        height: 40px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding-left: 15px;
+    }
+    
+    .venta-elejir-cantidad, .venta-elejir-categoria {
+        width: 48%;
+    }
+    
+    .venta-elejir-cantidad #cantidad, .venta-elejir-categoria #categoria {
+        width: 100%;
+        height: 40px;
+        margin-top: 10px;
+        padding-left: 15px;
+    }
+    
+    .total {
+        height: 55px;
+        width: 80vw;
+        background: #9de5f1;
+        border: 2px solid #73c7d6;
+        margin-top: 25px;
+        margin-bottom: 18px;
+    }
+    
+    .total p {
+        padding-top: 10px;
+        padding-left: 25px;
+        font-size: 20px;
+    }
+    
+    .button {
+        width: 80vw;
+    }
+    
+    .button button {
+        width: 49%;
+        height: 45px;
+        margin-bottom: 10px;
+        background-color: rgb(31, 156, 31);
+        border: none;
+    }
+}
